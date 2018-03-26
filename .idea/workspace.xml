@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a41ab8b9-fe0a-4579-b320-894446ac39ec" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/index.erb" />
-      <change beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/app.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
       <change beforePath="$PROJECT_DIR$/views/layout.erb" afterPath="$PROJECT_DIR$/views/layout.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="layout.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-190">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -54,9 +64,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/views/index.erb" />
+        <option value="$PROJECT_DIR$/public/app.js" />
       </list>
     </option>
   </component>
@@ -94,6 +105,11 @@
             <path>
               <item name="31" type="b2602c69:ProjectViewProjectNode" />
               <item name="31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="31" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="31" type="b2602c69:ProjectViewProjectNode" />
@@ -137,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522005724077</updated>
-      <workItem from="1522005727862" duration="553000" />
+      <workItem from="1522005727862" duration="1545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="553000" />
+    <option name="totallyTimeSpent" value="1545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="38" width="1142" height="646" extended-state="0" />
@@ -189,16 +205,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-190">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
