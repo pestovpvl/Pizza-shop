@@ -9,14 +9,23 @@
   <% @products.each do |p| %>
       <div class="col-md-4">
           <h5><%= p.title %></h5>
-        <img src="<%= p.path_to_image %>" class="img-fluid">
+
+        <div style="background-image: url(<%= p.path_to_image %>); min-height: 200px; background-repeat: no-repeat; background-position: center; background-size: cover"></div>
         <p><%= p.description %></p>
+        <p>Size: <%= p.size %></p>
         <button type="button" class="btn btn-primary">
           Price <span class="badge badge-light">$ <%= p.price %></span>
+        </button>
+        <button type="button" class="btn btn-success float-right"  onclick="add_to_cart()">
+         Add to cart
         </button>
       </div>
   <% end %>
 </div>
+<br>
+<br><br><br>
+<br>
+
 
 
 <button class="btn btn-primary" onclick="something()">Click me!</button>
