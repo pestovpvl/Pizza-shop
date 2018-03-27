@@ -16,7 +16,7 @@
         <button type="button" class="btn btn-primary">
           Price <span class="badge badge-light">$ <%= p.price %></span>
         </button>
-        <button type="button" class="btn btn-success float-right"  onclick="add_to_cart()">
+        <button type="button" class="btn btn-success float-right"  onclick="add_to_cart(<%= p.id %>)">
          Add to cart
         </button>
       </div>
