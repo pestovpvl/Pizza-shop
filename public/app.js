@@ -12,6 +12,7 @@ function add_to_cart(id) {
     window.localStorage.setItem(key, x);
 
    update_orders_input();
+    update_order_button();
 }
 
 
@@ -21,6 +22,11 @@ function update_orders_input() {
     console.log(orders);
 }
 
+
+function update_order_button() {
+    var text = 'Car (' + cart_get_number_of_items() + ')';
+    $('#orders_button').val(text);
+}
 
 
 
